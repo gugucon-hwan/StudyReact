@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+//import Counter from './Counter';
+import Say from './Say';
 //import logo from './logo.svg';
 //import './App.css';
-import MyComponent from './MyComponent';
+//import MyComponent from './MyComponent';
 
 const App = () => {
-  return <MyComponent>리액트</MyComponent>;
+  return <Say />;
 };
 
 export default App;
